@@ -231,6 +231,9 @@ nav a:hover::after {
 .project-links {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 10;
 }
 
 .project-link {
@@ -241,11 +244,15 @@ nav a:hover::after {
     border-radius: 25px;
     transition: all 0.3s ease;
     border: 1px solid rgba(0, 245, 255, 0.3);
+    position: relative;
+    z-index: 11;
+    cursor: pointer;
 }
 
 .project-link:hover {
     background: rgba(0, 245, 255, 0.3);
     transform: translateY(-2px);
+    color: #ffffff;
 }
 
 /* Skills Section */
