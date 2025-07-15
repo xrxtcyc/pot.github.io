@@ -1,3 +1,4 @@
+// Wait for DOM to load
 document.addEventListener("DOMContentLoaded", function () {
   // Smooth scrolling for navigation links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
